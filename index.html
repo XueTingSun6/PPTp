@@ -1,0 +1,415 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>TCP PROJET</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="#e8e3ff">
+					
+					<h3>le système contrôle intelligent des appareils électroménager</h3>
+					<h6>sous le système Android</h6>
+					<br>
+					
+					
+					<p align="right">Tuteur de projet : Jingliang Zhang</p>
+					<p align="right">Xueting SUN </p>
+
+					
+
+				</section>
+
+				
+				<section data-background= "#e8e3ff">
+
+						<h3>Introduction </h3><hr>
+						<br>
+						<p3>Le système de commande intelligente 
+						</p3>
+						<p3>va-il devenir un mode de vie?</p3>
+						<br>
+						
+					    <table>
+								<tr>
+								<td>
+										<a href="#/2">
+											<img src="lib/TCP.png"  width="500" height="333">
+											<a href="#/2">
+								</td>
+								<td>
+										<a href="#/2">
+								
+											<img src="lib/TCP2.png"  width="500" height="333">
+										</a>
+								</td>
+								</tr>
+								</table>
+   					   
+					</section>
+				<section data-background="#e6e6ff">
+					
+					
+					<h3>Le plan </h3><hr>
+					     <br>
+						  <ol>
+								<li> &nbsp&nbsp Le système Android</li>
+								<br>
+								<li> &nbsp&nbsp Etude du système</li>
+								<br>
+								<li> &nbsp&nbsp Conception du système</li>
+								<br>
+								<li> &nbsp&nbsp Résultats et Discussions</li>
+						  </ol>
+					
+					
+					</section>
+				
+				<section>
+						
+						<section data-background="#e3e8ff"><h3>1. &nbsp&nbsp Le système Android</h3><hr>
+							<br>
+								  <ul>
+										<li>1.1 &nbsp&nbsp Andy Rubin</li>
+										<br>
+										<li>1.2 &nbsp&nbsp Le système d'exploitation mobile</li>
+										<br>
+										<li>1.3 &nbsp&nbsp Logiciel : Eclipse</li>
+									
+									</ul>
+						</section>
+						<section data-background="#e3e8ff" style="text-align: left;"><h6>1.1 &nbsp&nbsp Andy Rubin</h6><hr>
+							<br>
+								 
+							 <table>
+								<tr>
+								<td>
+										<ul>
+												<li>&nbsp&nbsp 1989 &nbsp Ingénieur Apple</li>
+												<br>
+												<li>&nbsp&nbsp 2005 &nbsp Ingénieur Google</li>
+												<br>
+												<li>&nbsp&nbsp Annoncé la sortie  du <br />smartphone Essential PH-1</li>
+												
+											</ul>
+								</td>
+								<td>
+										<a href="#/2">
+								
+											<img src="lib/tcp3.png"  width="400" height="300" align="right">
+										</a>
+								</td>
+								</tr>
+								</table>
+									
+						</section>
+						
+						
+								<section data-background="#e0ebff" style="text-align: left;">
+									<h6>1.2 &nbsp&nbsp Le système d'exploitation mobile </h6><hr>
+									
+									<table>
+											<tr>
+											<td>
+													
+														<img src="lib/tcp4.png"  width="150" height="150"><br />
+														
+															<p3>Android</p3><br />
+															&nbsp&nbsp	<img src="lib/tcp8.png"  width="100" height="100"><br />
+											</td>
+											
+											<td>
+													
+													
+														<img src="lib/tcp6.png"  width="150" height="150"><br />
+														 <p3>&nbsp&nbsp iOS</p3><br />
+														 &nbsp&nbsp<img src="lib/tcp9.png"  width="100" height="100"><br />
+														
+													
+											</td>
+										
+											<td>
+													
+													<img src="lib/tcp6.png"  width="150" height="150"><br />
+													<p3>&nbsp&nbsp autre</p3><br />
+													&nbsp&nbsp<img src="lib/tcp10.png"  width="100" height="100"><br />
+													
+													
+													
+											</td>
+											</tr>
+											
+
+											</table>
+											<p3>2017 rapport de suivi de smartphone</p3>
+
+										
+									  
+								
+								
+		
+		
+							</section>
+							
+								
+								<section  data-background="#e8e3ff" style="text-align: left;">
+									<h6>1.2 &nbsp&nbsp Le système d'exploitation mobile </h6><hr>
+								
+									<table>
+										<tr>
+										<td>
+											<p6>Le système Android</p6>
+										</td>
+										<td>
+													<img src="lib/TCP8.png"  width="50" height="50" align="right">
+											
+										</td>
+										</tr>
+										</table>
+									
+
+										
+											<ul>
+												<li>&nbsp Le noyau Linux avec les pilotes </li>
+											
+												<li>&nbsp Les bibliothèques logicielles </li>
+										
+												<li>&nbsp Un environnement d'exécution  </li>
+											
+												<li>&nbsp Kit de développement d'applications </li>
+										
+												<li>&nbsp Un lot d'applications standard </li>
+												 
+
+
+											</ul>
+									
+									
+								</section>
+
+									
+								       <section  data-background="#e8e3ff" style="text-align: left;">
+									   <h6>1.3 &nbsp&nbsp Logiciel : Eclipse</h6><hr>
+									   <table>
+										<tr>
+										<td>
+											<ul>
+										
+									
+												<li>Eclipse a été conçu pour produire des environnements de développement</li>
+										
+												<li>Viser à supporter tout langage de programmation</li>
+												 
+		
+		
+											</ul>
+										</td>
+										<td>
+													<img src="lib/TCP12.png"  width="600" height="300" align="right">
+											
+										</td>
+										</tr>
+										</table>
+									   
+							
+
+								       </section>
+								
+							
+						
+
+
+					</section>
+			
+
+
+
+				
+				     <section>
+						<section data-background="#e0ebff"><h3>2. &nbsp&nbsp Etude du système</h3><hr>
+							<br>
+								  <ul>
+										<li>2.1 &nbsp&nbsp Sujet du projet </li>
+										<br>
+										<li>2.2 &nbsp&nbsp Analyse du projet </li>
+									
+									
+									</ul>
+						</section>
+					<section data-background="#e0ebff" style="text-align: left;">
+						<h6>2.1 &nbsp&nbsp Sujet du système</h6><hr>
+						<img src="lib/TCP13.png"  width="900" height="450" >
+
+						<font size="5" color="black" ><br> &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp 2.1 &nbsp&nbspConception logique du système de commande</font>
+					</section>
+					<section data-background="#e0ebff" style="text-align: left;">
+						<h6>2.2 &nbsp&nbsp Analyse du système</h6><hr>
+						<p>Protocole de contrôle de transmissions</p>
+						fonctionne en trois phases :
+						
+						<table>
+							<tr>
+							<td>
+								<ul>
+									<li>L'établissement de la connexion </li>
+									
+									<li>Les transferts de données  </li>
+							
+									<li>La fin de la connexion</li>
+								
+								
+								</ul>
+							</td>
+							<td>
+										
+										<img src="lib/tcp16.png"  width="200" height="200" align="right">
+								
+							</td>
+							<td>
+								<img src="lib/tcp15.png"  width="200" height="200" align="right">
+						
+						
+					</td>
+							</tr>
+							</table>
+
+						
+						
+					</section>
+				</section>
+	
+				
+
+
+				<section>
+					<section data-background="#deedff"><h3>3. &nbsp&nbsp Conception du système</h3><hr>
+						<br>
+							  <ul>
+									
+									<li>3.1 &nbsp&nbsp TProtocole de contrôle de transmissions</li>
+									<br>
+									<li>3.2 &nbsp&nbsp Le mode connecté : Socket</li>
+								
+								</ul>
+					</section>
+					<section data-background="#e0ebff" style="text-align: left;">
+						<h6>3.1 &nbsp Protocole de contrôle de transmissions</h6><hr>
+				
+						<table>
+							<tr>
+							<td>
+								<ul>
+									<li>L'établissement de la connexion </li>
+									
+									<li>Les transferts de données  </li>
+							
+									<li>La fin de la connexion</li>
+								
+								
+								</ul>
+							</td>
+							<td>
+								<img src="lib/tcp22.png"  width="700" height="300" align="right">
+						
+						
+					</td>
+							</tr>
+							</table>
+
+						
+						
+					</section>
+					<section data-background="#e0ebff" style="text-align: left;">
+						<h6>3.2 &nbsp&nbsp Le mode connecté : Socket</h6><hr>
+						<p><font size="6" color="black" >La socket : Lien entre l'applicatif et la couche transport</font></p>
+						<font size="5" color="black" >3 informations obligatoires : L'address IP, Le protocole utilisé, Le numéro de port</font>  
+						
+						
+								<img src="lib/tcp22.png"  width="700" height="300" >
+						
+								<font size="5" color="black" ><br> &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp &nbsp&nbsp 3.2.1  La théorie de la communication
+								</font>
+
+						
+						
+					</section>
+				</section>
+				<section data-background="#d9f2ff"><h3>4. &nbsp&nbsp Résultats et Discussions</h3><hr>
+					
+					<table>
+						<tr>
+						
+						<td>
+									
+							<img src="lib/tcp20.png"  width="300" height="450" align="right">
+							 <p3><font size="5" color="black" ><br> 4.1  Le travaux de simulation</font></p3>
+						</td>
+
+						<td>
+							<img src="lib/tcp27.jpeg"  width="400" height="300" align="right">
+					         <p3><font size="5" color="black" ><br> 4.2  L'interface d'application
+							</font></p3>
+					
+			        	</td>
+						</tr>
+						</table>
+				</section>
+				<section data-background="#d9f2ff"><h3>Conclusion</h3><hr>
+					<br>
+						  <ul>
+								<li> &nbsp&nbsp Contrôle intelligent des appareils</li>
+								<br>
+								<li>&nbsp&nbsp Programme très compétitive</li>
+								<br>
+								<li>&nbsp&nbsp Suite possible : création une base de données</li>
+							
+							</ul>
+				</section>
+				<section data-background="#deedff">Merci de m’avoir écouté</section>
+				<section data-background="#dbf0ff">Slide 7</section>
+				<section data-background="#d9f2ff">Slide 8</section>
+				<section data-background="#deedff">Slide 9</section>
+				<section data-background="#e0ebff">Slide 10</section>
+				<section data-background="#e3e8ff">Slide 11</section>
+				<section data-background="#e8e3ff">Slide 12</section>
+				<section data-background="#ebe0ff">Slide 13</section>
+				<section data-background="#e8e3ff">Slide 14</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
